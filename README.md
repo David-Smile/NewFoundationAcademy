@@ -1,10 +1,20 @@
 # New Foundation Academy Website
 
-A clean static school website for New Foundation Academy.
+A modern React website for New Foundation Academy built with Vite.
 
-Open `index.html` in a browser to view it. The page uses:
+## Run
 
-- `index.html` for content
-- `styles.css` for responsive styling
-- `script.js` for the mobile menu and sticky header
-- `assets/campus-hero.png` for the homepage visual
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+npm run preview
+```
+
+The homepage uses a royal-blue visual system, a generated campus hero image, admissions content,
+staff profiles, testimonials, school events and a full footer.
