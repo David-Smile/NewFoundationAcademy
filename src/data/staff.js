@@ -1,0 +1,18 @@
+export const staffMembers = [
+  { id: 1, name: "Mrs. Ada Okafor", title: "Principal", department: "Admin", subject: "School Leadership", initials: "AO", bio: "Leads academic standards, pastoral care, and parent partnership." },
+  { id: 2, name: "Mr. Michael Eze", title: "Vice Principal", department: "Admin", subject: "Operations", initials: "ME", bio: "Oversees school operations, discipline, and staff coordination." },
+  { id: 3, name: "Mrs. Blessing Ibrahim", title: "Head of Nursery", department: "Nursery", subject: "Early Years", initials: "BI", bio: "Creates warm foundations for confident early learners." },
+  { id: 4, name: "Mr. Chinedu Nwosu", title: "Head of Secondary", department: "Secondary", subject: "STEM", initials: "CN", bio: "Guides senior learners through exams and practical projects." },
+  { id: 5, name: "Miss Ruth Bello", title: "Class Teacher", department: "Nursery", subject: "Phonics", initials: "RB", bio: "Builds language and social confidence in early years pupils." },
+  { id: 6, name: "Mr. Tunde Adeyemi", title: "Class Teacher", department: "Primary", subject: "Mathematics", initials: "TA", bio: "Makes numeracy practical, steady, and measurable." },
+  { id: 7, name: "Mrs. Ifeoma Ude", title: "Class Teacher", department: "Primary", subject: "English", initials: "IU", bio: "Supports reading fluency, writing, and communication." },
+  { id: 8, name: "Mr. David Musa", title: "Teacher", department: "Secondary", subject: "Physics", initials: "DM", bio: "Connects science concepts with experiments and real-world thinking." },
+  { id: 9, name: "Miss Sarah Yakubu", title: "Teacher", department: "Secondary", subject: "Biology", initials: "SY", bio: "Develops curiosity through observation, inquiry, and lab work." },
+  { id: 10, name: "Mr. Emeka Obi", title: "Teacher", department: "Secondary", subject: "Government", initials: "EO", bio: "Teaches civic awareness, leadership, and critical thinking." },
+  { id: 11, name: "Mrs. Maryam Ali", title: "Teacher", department: "Primary", subject: "Basic Science", initials: "MA", bio: "Introduces inquiry through projects and simple experiments." },
+  { id: 12, name: "Mr. Peter Johnson", title: "ICT Instructor", department: "Secondary", subject: "ICT", initials: "PJ", bio: "Builds digital skills and responsible technology habits." },
+  { id: 13, name: "Mrs. Ngozi Kalu", title: "Guidance Counsellor", department: "Admin", subject: "Counselling", initials: "NK", bio: "Supports wellbeing, study habits, and family communication." },
+  { id: 14, name: "Miss Aisha Sani", title: "Arts Coordinator", department: "Primary", subject: "Creative Arts", initials: "AS", bio: "Encourages creativity through performance and visual expression." },
+  { id: 15, name: "Mr. Samuel Danjuma", title: "Sports Coach", department: "Secondary", subject: "Physical Education", initials: "SD", bio: "Builds teamwork, fitness, and sportsmanship." },
+  { id: 16, name: "Mrs. Grace Etim", title: "Admissions Officer", department: "Admin", subject: "Admissions", initials: "GE", bio: "Guides families through inquiries, visits, and enrolment." },
+];

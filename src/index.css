@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary-900: #0A1628;
+  --color-primary-800: #0D2040;
+  --color-primary-700: #102A58;
+  --color-primary-600: #153470;
+  --color-primary-500: #1A3F8A;
+  --color-primary-400: #2251B8;
+  --color-primary-300: #4F78D4;
+  --color-primary-200: #8AAEE8;
+  --color-primary-100: #C5D8F5;
+  --color-primary-50: #EBF1FB;
+  --color-accent-500: #E8A020;
+  --color-accent-400: #F2B340;
+  --color-accent-100: #FEF3DC;
+  --color-neutral-900: #0F1117;
+  --color-neutral-700: #374151;
+  --color-neutral-500: #6B7280;
+  --color-neutral-300: #D1D5DB;
+  --color-neutral-100: #F3F4F6;
+  --color-neutral-50: #F9FAFB;
+  --color-white: #FFFFFF;
+  --color-surface: #F7F9FD;
+  --font-display: 'DM Serif Display', serif;
+  --font-body: 'Plus Jakarta Sans', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--color-surface);
+  color: var(--color-neutral-900);
+  font-family: var(--font-body);
+}
+
+body.nav-open {
+  overflow: hidden;
+}
+
+::selection {
+  background: var(--color-primary-100);
+  color: var(--color-primary-900);
+}
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+  }
+
+  a,
+  button,
+  input,
+  textarea,
+  select {
+    @apply focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[--color-primary-200] focus-visible:ring-offset-2;
+  }
+}
+
+@layer components {
+  .container-nfa {
+    @apply mx-auto max-w-7xl px-6;
+  }
+
+  .section {
+    @apply py-20 lg:py-24;
+  }
+
+  .field {
+    @apply mt-2 w-full rounded-xl border border-neutral-300 bg-white px-4 py-3 text-sm text-neutral-900 shadow-sm transition focus:border-[--color-primary-400];
+  }
+
+  .field-error {
+    @apply mt-1 text-sm font-medium text-red-600;
+  }
+
+  .label {
+    @apply text-sm font-semibold text-neutral-700;
+  }
+
+  .page-hero-pattern {
+    background-image:
+      linear-gradient(rgba(255,255,255,0.06) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.06) 1px, transparent 1px);
+    background-size: 36px 36px;
+  }
+}
