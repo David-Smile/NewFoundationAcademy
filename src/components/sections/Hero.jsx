@@ -18,7 +18,7 @@ export function Hero() {
             <Button variant="white" to="/admissions">Apply for Admission <ArrowRight size={17} /></Button>
             <Button variant="ghostWhite" to="/programs">Explore Programs</Button>
           </motion.div>
-          <motion.p variants={item} className="mt-8 text-sm font-semibold text-white/70">Est. 2005 · 1,200+ Students · 98% Pass Rate · WAEC Certified</motion.p>
+          <motion.p variants={item} className="mt-8 text-sm font-semibold text-white/70">Est. 2013 · 1,200+ Students · 98% Pass Rate · WAEC Certified</motion.p>
         </motion.div>
         <motion.div className="relative hidden h-[520px] lg:block" initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.7, delay: 0.25 }}>
           {["top-8 left-16 rotate-[-6deg]", "top-32 right-6 rotate-[5deg]", "bottom-8 left-4 rotate-[3deg]"].map((position, index) => (
